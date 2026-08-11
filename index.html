@@ -1,0 +1,175 @@
+notepad
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Para Mamá ❤️</title>
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #ffe1ec, #fff7fa);
+            color: #5a2942;
+            text-align: center;
+        }
+
+        .contenedor {
+            max-width: 900px;
+            margin: auto;
+            padding: 30px 20px;
+        }
+
+        h1 {
+            color: #d63384;
+            font-size: 45px;
+        }
+
+        h2 {
+            color: #c2185b;
+        }
+
+        .corazon {
+            font-size: 50px;
+            animation: latido 1.5s infinite;
+        }
+
+        .mensaje,
+        .final {
+            background: white;
+            padding: 30px;
+            margin: 25px 0;
+            border-radius: 25px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.12);
+        }
+
+        .mensaje p {
+            font-size: 20px;
+            line-height: 1.7;
+        }
+
+        .galeria {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            margin-top: 25px;
+        }
+
+        .galeria img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 20px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+            transition: transform 0.3s;
+        }
+
+        .galeria img:hover {
+            transform: scale(1.05);
+        }
+
+        .final p {
+            font-size: 23px;
+            font-weight: bold;
+        }
+
+        @keyframes latido {
+
+            0% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.2);
+            }
+
+            100% {
+                transform: scale(1);
+            }
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="contenedor">
+
+        <div class="corazon">
+            ❤️
+        </div>
+
+        <h1>Feliz Día de la Madre</h1>
+
+        <div class="mensaje">
+
+            <h2>🌷 Para una mamá muy especial 🌷</h2>
+
+            <p>
+                Mamá, quiero aprovechar este día para
+                agradecerte por todo el amor, cariño
+                y apoyo que me has dado.
+            </p>
+
+            <p>
+                Gracias por estar siempre presente,
+                por tus consejos y por todos los momentos
+                que hemos compartido.
+            </p>
+
+            <p>
+                Espero que este pequeño detalle te recuerde
+                lo importante y especial que eres para mí.
+            </p>
+
+        </div>
+
+        <h2>📸 Nuestros recuerdos</h2>
+
+        <div class="galeria">
+
+            <img src="fotos/foto1.jpg" alt="Recuerdo 1">
+
+            <img src="fotos/foto2.jpg" alt="Recuerdo 2">
+
+            <img src="fotos/foto3.jpg" alt="Recuerdo 3">
+
+            <img src="fotos/foto4.jpg" alt="Recuerdo 4">
+
+            <img src="fotos/foto5.jpg" alt="Recuerdo 5">
+
+        </div>
+
+        <div class="final">
+
+            <div class="corazon">
+                ❤️
+            </div>
+
+            <p>
+                Te quiero muchísimo, mamá.
+            </p>
+
+            <p>
+                Gracias por ser parte de mi vida. 🌷
+            </p>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
